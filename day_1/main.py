@@ -8,7 +8,7 @@ def count_num_increases(measurements):
 
 
 if __name__ == "__main__":
-	with open("input_a.txt", "r") as f:
+	with open("input.txt", "r") as f:
 		measurements = [int(i) for i in f.read().split("\n")]
 
 	print(f"Part A: Number of increases: {count_num_increases(measurements)}")
